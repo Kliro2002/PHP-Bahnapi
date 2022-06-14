@@ -1,0 +1,98 @@
+/*Erstellen des Header und des Haupteils mit einer anderen Hintergrundfarbe und angepasster Textausgabe*/ 
+
+.header {
+	background-color: #f1f1f1;
+	padding: 5px;
+	text-align: center;
+
+}
+
+.main{
+text-align: center;
+background-color: #ddd7d7;
+}
+
+body {
+	font-family: "Trirong", serif;
+}
+
+
+
+.ausgabe {
+	background-color: gray;
+	text-align: center;
+	
+}
+
+/* Erstellt 3 Spalten (nebeneinander) für die Ausgabe von "Ankunft" und/oder "Abfahrt" */
+.arrive {
+	float: left;
+	width: 33.33%;
+
+	
+}
+
+.depart {
+	float: left;
+	width: 33.33%;
+
+	
+}
+
+.ardep {
+	float: left;
+	width: 33.33%;
+
+	
+}
+
+/*  Anpassungen am Button */
+.button {
+	background-color: #555555; /*Black*/
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  /* Überschriften  -Positionanpassung */
+.title{
+	text-align: center;
+}
+
+
+/* Anpassen der Ausgabe der allgemeinen Informationen*/
+
+.columnall {
+	float: left;
+	width: 30.00%;
+	padding: 5px;
+}
+
+/* Löscht die FLoast der Spalten */
+.spalten:after {
+	content: "";
+	display: table;
+	clear: both;
+ }
+
+ /*Größe der Map */
+ #basicMap {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+
+  
+
+
+
+
+
+
+
